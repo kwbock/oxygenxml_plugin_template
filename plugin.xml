@@ -7,7 +7,7 @@
     name="PluginNameGoesHere"
     description="plugin description goes here"
     version="1.0.0"
-    vendor="Emory University"
+    vendor="organization goes here"
     class="com.package.of.Plugin">
     <runtime>
         <library name="PluginNameGoesHere.jar"/>
