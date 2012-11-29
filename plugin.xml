@@ -1,0 +1,18 @@
+<!DOCTYPE plugin SYSTEM "../plugin.dtd">
+<!--
+    This is a template for the plugin xml file.
+    Please refer to the OxygenXML docs for how to configure this.
+-->
+<plugin
+    name="PluginNameGoesHere"
+    description="plugin description goes here"
+    version="1.0.0"
+    vendor="Emory University"
+    class="com.package.of.Plugin">
+    <runtime>
+        <library name="PluginNameGoesHere.jar"/>
+    </runtime>
+    <extension type="extensionType"
+     class="com.package.of.PluginExtension"
+     keyboardShortcut="ctrl shift N"/>
+</plugin>
